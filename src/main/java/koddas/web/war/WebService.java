@@ -23,7 +23,7 @@ import com.google.gson.Gson;
  * @author Johan Holmberg
  */
 @Path("service")  // By altering the argument, you'll change the service's URL
-public class WebService {
+public class WebService extends HttpServlet {
 	
 	/**
 	 * Prints "It's working" when /wwp-1.0.0/webapi/service is accessed.
