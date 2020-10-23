@@ -17,6 +17,10 @@ import javax.ws.rs.core.Response;
 
 import com.google.gson.Gson;
 
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+
 /**
  * A very simple web service.
  * 
